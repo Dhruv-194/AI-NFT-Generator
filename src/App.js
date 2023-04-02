@@ -71,7 +71,7 @@ function App() {
       url: URL ,
       method: 'POST',
       headers:{ 
-        Authorization: "Bearer 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",
+        Authorization: "Bearer ",
         Accept: 'application/json',
         'Content-type': 'application/json'
 
@@ -97,7 +97,7 @@ function App() {
     setMessage("Uploading Image....")
 
   const nftstorage=  new NFTStorage({
-      token: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJkaWQ6ZXRocjoweDFFYTU1MUIyMTczYTY3ODQxOTY3NTk3MmMyYzJhQzMzMzI4NzU3OEYiLCJpc3MiOiJuZnQtc3RvcmFnZSIsImlhdCI6MTY4MDQ0NTI0NTQ5NiwibmFtZSI6IkFJLU5GdEltYWdlIn0.ItxlXbp9AbCMUzgz4CveRccIYGlwtqeKRVV6l-Rn_tA"
+      token: ""
     })
 
     const { ipnft } = await nftstorage.store({
